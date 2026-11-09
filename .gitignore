@@ -1,0 +1,9 @@
+node_modules/
+*.log
+notify-spirit.log
+trace.log
+
+# Development notes: design rationale and the task list. Kept locally, not
+# published — they discuss other plugins and the internal direction of travel.
+PLAN.md
+TODO.md

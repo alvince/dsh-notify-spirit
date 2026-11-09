@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Notify shadow",
+    "description": "Keeps a shadow icon in the menu bar showing what each Session is doing, raises a system notification when a task finishes or is blocked, and turns pending approvals and questions into a queue in the menu bar and in notifications, so a Session can be answered item by item and settled as one batch without returning to the DSH window."
+  }
+}

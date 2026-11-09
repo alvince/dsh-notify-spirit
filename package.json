@@ -1,0 +1,40 @@
+{
+  "name": "dsh-notify-spirit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DeepSeek Harness 插件：状态栏鲸鱼图标显示会话状态，任务完成/阻塞时发系统通知，会话等待授权或选择时把待决事项送进菜单栏，不用切回 DSH 窗口也能处理完。",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "assets",
+    "locale",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-bundle",
+    "notification",
+    "tray",
+    "menubar",
+    "approval"
+  ],
+  "license": "MIT",
+  "icon": "./icon.png"
+}

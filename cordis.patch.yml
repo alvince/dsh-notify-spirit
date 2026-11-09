@@ -1,0 +1,6 @@
+# dsh-notify-spirit bundle patch: mount the host half (tray, notifications,
+# decision queue). The package is Host-only for now; a Client half
+# (settings page + focus reporting) is planned but not part of P0.
+- insert:
+    - id: notify-spirit
+      name: 'dsh-notify-spirit'
